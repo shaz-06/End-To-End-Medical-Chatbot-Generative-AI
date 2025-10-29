@@ -39,7 +39,30 @@ This project simulates doctor–patient interactions, offering users a safe way 
 
 ---
 
+python -m venv venv
+source venv/bin/activate      # For Linux/Mac
+venv\Scripts\activate         # For Windows
+
+
 ## ⚙️ How to Run Locally
+
+pip install -r requirements.txt
+python app.py
+
+
+## 🧩 Future Enhancements
+
+🩸 Symptom-based diagnosis with ML models
+
+📱 Voice input and speech output
+
+🧾 Chat history and export feature
+
+☁️ Deploy on Render / AWS / Hugging Face Spaces
+
+🏷️ Topics / Tags
+
+python flask ai-chatbot generative-ai medical nlp openai fullstack machine-learning
 
 ### 1️⃣ Clone the Repository
 ```bash
